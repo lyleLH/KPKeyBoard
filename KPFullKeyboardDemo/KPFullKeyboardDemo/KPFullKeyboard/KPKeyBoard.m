@@ -110,7 +110,7 @@ NSInteger  const letterLineCount = 3;
                 UIButton *blankView  = [UIButton buttonWithType:UIButtonTypeCustom];
                 [blankView setFrame:CGRectMake(j*letterKeyWidth+1, 41+i*40 +1, letterKeyWidth-1, letterKeyHeight-1)];
                 blankView.backgroundColor = [UIColor whiteColor];
-                blankView.userInteractionEnabled = YES; //是的空白键不响应touch事件
+                blankView.userInteractionEnabled = YES; //使得空白键不响应touch事件
                 [self addSubview:blankView];
             }else{
                 UIButton *letterButton  = [UIButton buttonWithType:UIButtonTypeCustom];
