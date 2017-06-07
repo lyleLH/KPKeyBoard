@@ -105,15 +105,12 @@ NSInteger  const letterLineCount = 3;
     
     for(NSInteger i = 0 ; i < letterLineCount ;i ++ ){
         NSInteger maxCountInRow = 9;
-//        if(i ==2){
-//            maxCountInRow = 8;
-//        }
         for (NSInteger j = 0 ; j <maxCountInRow; j++) {
             if(i ==2 && j == 8){
                 UIButton *blankView  = [UIButton buttonWithType:UIButtonTypeCustom];
                 [blankView setFrame:CGRectMake(j*letterKeyWidth+1, 41+i*40 +1, letterKeyWidth-1, letterKeyHeight-1)];
                 blankView.backgroundColor = [UIColor whiteColor];
-                blankView.userInteractionEnabled = YES; 
+                blankView.userInteractionEnabled = YES; //是的空白键不响应touch事件
                 [self addSubview:blankView];
             }else{
                 UIButton *letterButton  = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -228,7 +225,6 @@ NSInteger  const letterLineCount = 3;
         numbersAry = [NSArray arrayWithObjects:kNumberKeyboardKeys count:numberKeysCount];
     });
     return numbersAry;
-//    return @[@"1", @"2", @"3",@"4", @"5", @"6", @"7", @"8", @"9", @"0"];
 }
 
 - (NSArray *)lettersAry{
@@ -238,12 +234,10 @@ NSInteger  const letterLineCount = 3;
         lettersAry = [NSArray arrayWithObjects:kLetterKeyboardKeys count:letterKeysCount];
     });
     return lettersAry;
-//     return @[@"A", @"B", @"C",@"D", @"E", @"F",@"G", @"H", @"I",@"J", @"K", @"L",@"M", @"N", @"O",@"P", @"Q", @"R",@"S", @"T", @"U",@"V", @"W", @"X",@"Y", @"Z"];
 }
 
 
-- (KPKeyboardPopView *)popView
-{
+- (KPKeyboardPopView *)popView {
     if (!_popView) {
         _popView = [KPKeyboardPopView popView];
     }
