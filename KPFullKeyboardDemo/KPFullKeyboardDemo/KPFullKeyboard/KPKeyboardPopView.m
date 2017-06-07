@@ -46,12 +46,12 @@
     
     CGFloat popViewY = btnFrame.origin.y - (popViewH - btnFrame.size.height);
 //    if ([button.currentTitle.lowercaseString isEqualToString:@"q"] || [button.currentTitle isEqualToString:@"1"] || [button.currentTitle isEqualToString:@"~"])
-    if ([button.currentTitle.lowercaseString isEqualToString:@"1"] || [button.currentTitle isEqualToString:@"A"] || [button.currentTitle isEqualToString:@"J"]|| [button.currentTitle isEqualToString:@"S"]){           // 按钮在左边的情形
+    if ([button.currentTitle.lowercaseString isEqualToString:@"1"] || [button.currentTitle isEqualToString:@"Q"] || [button.currentTitle isEqualToString:@"A"]|| [button.currentTitle isEqualToString:@"Z"]){           // 按钮在左边的情形
         self.backImageView.image = [UIImage imageNamed:@"keyboard_pop_left"];
         popViewX = btnFrame.origin.x - AUTO_ADAPT_SIZE_VALUE(4, 4, 4);
         self.letterLeadingConstraint.constant = AUTO_ADAPT_SIZE_VALUE(9, 11, 11);
 //    } else if ([button.currentTitle.lowercaseString isEqualToString:@"p"] || [button.currentTitle isEqualToString:@"0"] || [button.currentTitle isEqualToString:@"#"])
-        } else if ([button.currentTitle.lowercaseString isEqualToString:@"0"] || [button.currentTitle isEqualToString:@"I"] || [button.currentTitle isEqualToString:@"R"]){           // 按钮在右边的情形
+        } else if ([button.currentTitle.lowercaseString isEqualToString:@"0"] || [button.currentTitle isEqualToString:@"O"] || [button.currentTitle isEqualToString:@"P"]){           // 按钮在右边的情形
         self.backImageView.image = [UIImage imageNamed:@"keyboard_pop_right"];
         popViewX = btnFrame.origin.x + btnFrame.size.width - AUTO_ADAPT_SIZE_VALUE(69, 79, 85);
         self.letterLeadingConstraint.constant = AUTO_ADAPT_SIZE_VALUE(25, 29, 33);

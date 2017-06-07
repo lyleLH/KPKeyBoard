@@ -18,7 +18,9 @@ NSString * const kNumberKeyboardKeys[] = {
 };
 
 NSString * const kLetterKeyboardKeys[] = {
-    @"A", @"B", @"C",@"D", @"E", @"F",@"G", @"H", @"I",@"J", @"K", @"L",@"M", @"N", @"O",@"P", @"Q", @"R",@"S", @"T", @"U",@"V", @"W", @"X",@"Y", @"Z"
+    @"Q", @"W", @"E",@"R", @"T", @"Y",@"U", @"I", @"O",
+    @"A", @"S", @"D",@"F", @"G", @"H",@"J", @"K", @"P",
+    @"Z", @"X", @"C",@"V", @"B", @"N",@"M", @"L"
 };
 
 #define  numberKeyWidth   [UIScreen mainScreen].bounds.size.width / numberKeysCount
