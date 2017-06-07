@@ -68,6 +68,23 @@ NSInteger  const letterLineCount = 3;
 }
 
 
+#pragma mark -  privite method
+
+
+- (UIButton *)keyboardButtonWithLocation:(CGPoint)location
+{
+    NSUInteger count = self.allkeyButtonsAry.count;
+    for (NSUInteger i = 0; i < count; i++) {
+        UIButton *btn = self.allkeyButtonsAry[i];
+        if (CGRectContainsPoint(btn.frame, location)) {
+            return btn;
+        }
+    }
+    return nil;
+}
+
+
+
 - (void)setUpUILayout {
     
     for(NSInteger i = 0 ; i <self.numbersAry.count; i ++){
@@ -160,23 +177,6 @@ NSInteger  const letterLineCount = 3;
 {
 //    NSLog(@"touchesCancelled:");
     [self.popView removeFromSuperview];
-}
-
-
-
-#pragma mark -  privite method
-
-
-- (UIButton *)keyboardButtonWithLocation:(CGPoint)location
-{
-    NSUInteger count = self.allkeyButtonsAry.count;
-    for (NSUInteger i = 0; i < count; i++) {
-        UIButton *btn = self.allkeyButtonsAry[i];
-        if (CGRectContainsPoint(btn.frame, location)) {
-            return btn;
-        }
-    }
-    return nil;
 }
 
 
