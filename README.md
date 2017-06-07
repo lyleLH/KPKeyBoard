@@ -6,7 +6,7 @@
 <!--![image](https://github.com/lyleLH/KPKeyBoard/blob/master/2017-06-07%2012_42_40.gif =375*667)-->
 
 
-![2017-06-07 12_42_40.gif](http://upload-images.jianshu.io/upload_images/1206973-e2cb9f6ac33ed51d.gif?imageMogr2/auto-orient/strip =375x667){: width="375px" height="667px"}
+![2017-06-07 12_42_40.gif](http://upload-images.jianshu.io/upload_images/1206973-e2cb9f6ac33ed51d.gif?imageMogr2/auto-orient/strip ){: width="375px" height="667px"}
 
 
 
