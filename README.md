@@ -3,7 +3,7 @@
 
 ## Preview
 
-![image](https://github.com/lyleLH/KPKeyBoard/blob/master/2017-06-07%2017_57_45.gif)
+![image](https://github.com/lyleLH/KPKeyBoard/blob/master/2017-06-07%2012_42_40.gif)
 
 
 ![高清静态大图](https://github.com/lyleLH/KPKeyBoard/blob/master/vlcsnap-2017-06-07-13h53m45s716.png)
