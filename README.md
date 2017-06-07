@@ -5,7 +5,12 @@
 
 <!--![image](https://github.com/lyleLH/KPKeyBoard/blob/master/2017-06-07%2012_42_40.gif =375*667)-->
 
-![2017-06-07 12_42_40.gif](http://upload-images.jianshu.io/upload_images/1206973-e2cb9f6ac33ed51d.gif?imageMogr2/auto-orient/strip =375x667)
+<!--
+![2017-06-07 12_42_40.gif](http://upload-images.jianshu.io/upload_images/1206973-e2cb9f6ac33ed51d.gif?imageMogr2/auto-orient/strip =375x667)-->
+
+<img src="http://upload-images.jianshu.io/upload_images/1206973-e2cb9f6ac33ed51d.gif?imageMogr2/auto-orient/strip" width="375" height="667" />
+
+
 ## How To Use
 
 ```
